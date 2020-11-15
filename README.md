@@ -1,2 +1,4 @@
+## Status: Pending
+
 # cloudlayerio-php
-cloudlayerio (https://cloudlayer.io) - API Library for easy access to our REST based API services using PHP
+cloudlayerio API Library for easy access to our REST based API services using PHP.
