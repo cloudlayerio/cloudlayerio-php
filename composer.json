@@ -1,6 +1,7 @@
 {
     "name": "cloudlayerio/cloudlayerio-php",
     "description": "cloudlayerio API Library for easy access to our REST based API services using PHP.",
+    "license": "Apache-2.0",
     "type": "library",
     "minimum-stability": "stable",
     "require": {
