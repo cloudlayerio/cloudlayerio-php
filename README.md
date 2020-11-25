@@ -1,6 +1,8 @@
 # cloudlayerio-php
 cloudlayerio API Library for easy access to our REST based API services using PHP.
 
+- Convert HTML to PDFs and Images
+- Convert Webpages to PDFs and Images (using any public URL)
 
 ## Example Usage
 - load composer dependencies
