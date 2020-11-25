@@ -2,6 +2,7 @@
     "name": "cloudlayerio/cloudlayerio-php",
     "description": "cloudlayerio API Library for easy access to our REST based API services using PHP.",
     "license": "Apache-2.0",
+    "keywords": ["pdf", "screenshot", "convert", "pdf-converter", "api-rest", "webpage-screenshot", "converter", "pdf-generation", "pdf-generator", "pdf-generator-api", "webpage-capture"],
     "type": "library",
     "minimum-stability": "stable",
     "require": {
