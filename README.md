@@ -261,9 +261,10 @@ The SDK uses `declare(strict_types=1)` in every file and passes PHPStan level 8 
 
 ## Other SDKs
 
-- [JavaScript/TypeScript SDK](https://github.com/cloudlayerio/cloudlayerio-js)
-- [Python SDK](https://github.com/cloudlayerio/cloudlayerio-python)
-- [.NET SDK](https://github.com/cloudlayerio/cloudlayerio-dotnet)
+- **JavaScript/TypeScript:** [@cloudlayerio/sdk](https://www.npmjs.com/package/@cloudlayerio/sdk) ([GitHub](https://github.com/cloudlayerio/cloudlayerio-js))
+- **Python:** [cloudlayerio](https://pypi.org/project/cloudlayerio/) ([GitHub](https://github.com/cloudlayerio/cloudlayerio-python))
+- **Go:** [cloudlayerio-go](https://pkg.go.dev/github.com/cloudlayerio/cloudlayerio-go) ([GitHub](https://github.com/cloudlayerio/cloudlayerio-go))
+- **.NET C#:** [cloudlayerio-dotnet](https://www.nuget.org/packages/cloudlayerio-dotnet/) ([GitHub](https://github.com/cloudlayerio/cloudlayerio-dotnet))
 
 ## License
 
