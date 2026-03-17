@@ -7,7 +7,7 @@ namespace CloudLayer\Types;
 /**
  * Job data from the CloudLayer API.
  */
-final readonly class Job
+final class Job
 {
     /**
      * @param ?array<string, mixed> $params

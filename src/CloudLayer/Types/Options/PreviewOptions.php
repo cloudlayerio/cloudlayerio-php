@@ -6,7 +6,7 @@ namespace CloudLayer\Types\Options;
 
 use CloudLayer\Types\ImageType;
 
-final readonly class PreviewOptions
+final class PreviewOptions
 {
     public function __construct(
         public ?int $width = null,

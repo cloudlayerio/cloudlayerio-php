@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types;
 
-final readonly class PublicTemplate
+final class PublicTemplate
 {
     /**
      * @param array<string, mixed> $extra Remaining dynamic fields

@@ -7,7 +7,7 @@ namespace CloudLayer\Types;
 /**
  * Parsed error response body from the CloudLayer API.
  */
-final readonly class ApiErrorBody
+final class ApiErrorBody
 {
     /**
      * @param list<string>|null $details

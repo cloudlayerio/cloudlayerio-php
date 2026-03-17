@@ -11,7 +11,7 @@ use CloudLayer\Types\ResponseHeaders;
  *
  * Internal value object representing an HTTP response.
  */
-final readonly class HttpResponse
+final class HttpResponse
 {
     /**
      * @param mixed $data Parsed response data (array for JSON, string for binary, null for 204)

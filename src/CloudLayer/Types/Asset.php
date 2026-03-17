@@ -7,7 +7,7 @@ namespace CloudLayer\Types;
 /**
  * Asset data from the CloudLayer API.
  */
-final readonly class Asset
+final class Asset
 {
     public function __construct(
         public string $uid,

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types;
 
-final readonly class StorageNotAllowedResponse
+final class StorageNotAllowedResponse
 {
     public function __construct(
         public bool $allowed,

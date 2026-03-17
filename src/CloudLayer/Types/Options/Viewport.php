@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class Viewport
+final class Viewport
 {
     public function __construct(
         public int $width,

@@ -10,7 +10,7 @@ namespace CloudLayer\Types;
  * For v2/async: $data is a Job instance.
  * For v1 sync: $data is a binary string.
  */
-final readonly class ConversionResult
+final class ConversionResult
 {
     public function __construct(
         public Job|string $data,

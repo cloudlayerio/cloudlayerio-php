@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types;
 
-final readonly class StorageParams
+final class StorageParams
 {
     public function __construct(
         public string $title,

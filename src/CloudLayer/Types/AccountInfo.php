@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types;
 
-final readonly class AccountInfo
+final class AccountInfo
 {
     /**
      * @param array<string, mixed>|null $extra Additional dynamic fields from Firestore

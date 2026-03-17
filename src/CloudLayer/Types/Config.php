@@ -9,15 +9,15 @@ use CloudLayer\Errors\ConfigException;
 /**
  * Immutable client configuration value object.
  */
-final readonly class Config
+final class Config
 {
-    public string $apiKey;
-    public ApiVersion $apiVersion;
-    public string $baseUrl;
-    public int $timeout;
-    public int $maxRetries;
+    public readonly string $apiKey;
+    public readonly ApiVersion $apiVersion;
+    public readonly string $baseUrl;
+    public readonly int $timeout;
+    public readonly int $maxRetries;
     /** @var array<string, string> */
-    public array $headers;
+    public readonly array $headers;
 
     /**
      * @param array<string, string> $headers

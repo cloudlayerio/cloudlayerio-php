@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class Cookie
+final class Cookie
 {
     /**
      * @param 'Strict'|'Lax'|null $sameSite

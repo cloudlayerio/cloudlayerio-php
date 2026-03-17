@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class Margin
+final class Margin
 {
     /**
      * @param string|int|null $top CSS dimension (e.g., '1cm') or pixel integer

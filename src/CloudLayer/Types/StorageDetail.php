@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types;
 
-final readonly class StorageDetail
+final class StorageDetail
 {
     public function __construct(
         public string $id,

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class BatchOptions
+final class BatchOptions
 {
     /**
      * @param list<string> $urls Max 20 URLs

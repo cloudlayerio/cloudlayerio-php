@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class WaitForSelectorOptions
+final class WaitForSelectorOptions
 {
     /**
      * @param ?array{visible?: bool, hidden?: bool, timeout?: int} $options

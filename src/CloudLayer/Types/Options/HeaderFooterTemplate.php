@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CloudLayer\Types\Options;
 
-final readonly class HeaderFooterTemplate
+final class HeaderFooterTemplate
 {
     /**
      * @param 'template'|'extract'|null $method

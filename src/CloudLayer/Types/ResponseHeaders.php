@@ -7,7 +7,7 @@ namespace CloudLayer\Types;
 /**
  * Parsed CloudLayer custom response headers (cl-* headers).
  */
-final readonly class ResponseHeaders
+final class ResponseHeaders
 {
     public function __construct(
         public ?string $workerJobId = null,
