@@ -1,8 +1,8 @@
 # cloudlayer.io PHP SDK
 
-[![Packagist Version](https://img.shields.io/packagist/v/cloudlayerio/sdk)](https://packagist.org/packages/cloudlayerio/sdk)
-[![PHP Version](https://img.shields.io/packagist/dependency-v/cloudlayerio/sdk/php)](https://packagist.org/packages/cloudlayerio/sdk)
-[![License](https://img.shields.io/packagist/l/cloudlayerio/sdk)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/cloudlayerio/cloudlayerio-php)](https://packagist.org/packages/cloudlayerio/cloudlayerio-php)
+[![PHP Version](https://img.shields.io/packagist/dependency-v/cloudlayerio/cloudlayerio-php/php)](https://packagist.org/packages/cloudlayerio/cloudlayerio-php)
+[![License](https://img.shields.io/packagist/l/cloudlayerio/cloudlayerio-php)](LICENSE)
 [![CI](https://github.com/cloudlayerio/cloudlayerio-php/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudlayerio/cloudlayerio-php/actions/workflows/ci.yml)
 
 Official PHP SDK for the [cloudlayer.io](https://cloudlayer.io) document generation API.
