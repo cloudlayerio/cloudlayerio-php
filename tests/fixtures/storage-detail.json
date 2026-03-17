@@ -1,0 +1,6 @@
+{
+  "id": "storage-1",
+  "title": "My S3 Bucket",
+  "uid": "user-456",
+  "data": "encrypted-storage-config-data"
+}

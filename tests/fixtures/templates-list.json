@@ -1,0 +1,4 @@
+[
+  {"id": "tmpl-1", "name": "Invoice", "category": "business"},
+  {"id": "tmpl-2", "name": "Receipt", "category": "business"}
+]

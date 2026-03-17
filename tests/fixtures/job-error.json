@@ -1,0 +1,7 @@
+{
+  "id": "job-123",
+  "uid": "user-456",
+  "status": "error",
+  "timestamp": 1710000000,
+  "error": "Conversion failed: page not found"
+}

@@ -1,0 +1,4 @@
+[
+  {"id": "job-1", "uid": "user-1", "status": "success", "timestamp": 1710000000},
+  {"id": "job-2", "uid": "user-1", "status": "pending", "timestamp": 1710000001}
+]

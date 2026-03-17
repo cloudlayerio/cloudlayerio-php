@@ -1,0 +1,16 @@
+{
+  "email": "user@example.com",
+  "callsLimit": 1000,
+  "calls": 42,
+  "storageUsed": 512000,
+  "storageLimit": 1073741824,
+  "subscription": "Growth",
+  "bytesTotal": 102400,
+  "bytesLimit": 10737418240,
+  "computeTimeTotal": 60000,
+  "computeTimeLimit": -1,
+  "subType": "usage",
+  "uid": "user-456",
+  "credit": 25.50,
+  "subActive": true
+}

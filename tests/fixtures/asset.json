@@ -1,0 +1,12 @@
+{
+  "uid": "user-456",
+  "id": "asset-abc",
+  "fileId": "file-123",
+  "type": "pdf",
+  "ext": "pdf",
+  "url": "https://storage.example.com/asset.pdf",
+  "size": 102400,
+  "timestamp": 1710000000,
+  "jobId": "job-123",
+  "name": "test-asset"
+}

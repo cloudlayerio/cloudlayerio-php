@@ -1,0 +1,38 @@
+name: Publish
+
+# Packagist auto-updates via webhook when tags are pushed.
+# This workflow creates a GitHub release for the tag.
+#
+# Packagist webhook setup:
+# 1. Go to https://packagist.org/packages/cloudlayerio/sdk
+# 2. Settings → GitHub Service Hook (or use the GitHub integration)
+# 3. Add webhook URL from Packagist to the GitHub repo's webhook settings
+# 4. Packagist will auto-update on every push (including tags)
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+
+      - name: Validate composer.json
+        run: composer validate --strict
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true

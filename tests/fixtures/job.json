@@ -1,0 +1,21 @@
+{
+  "id": "job-123",
+  "uid": "user-456",
+  "status": "success",
+  "timestamp": 1710000000,
+  "name": "test-job",
+  "type": "url-pdf",
+  "workerName": "worker-1",
+  "processTime": 1500,
+  "apiKeyUsed": "key-789",
+  "processTimeCost": 0.0015,
+  "apiCreditCost": 1.0,
+  "bandwidthCost": 0.0001,
+  "totalCost": 1.0016,
+  "size": 102400,
+  "assetUrl": "https://storage.example.com/asset.pdf",
+  "previewUrl": "https://storage.example.com/preview.png",
+  "self": "/v2/jobs/job-123",
+  "assetId": "asset-abc",
+  "projectId": "proj-xyz"
+}
